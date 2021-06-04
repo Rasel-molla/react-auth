@@ -1,0 +1,33 @@
+.card-design{
+    margin-top: 50px;
+    width: 200px;
+    height: 300px;
+    background-color: rgb(218, 205, 27);
+    margin : 20px;
+    text-align: center;
+    color: #0c0606;
+    padding: 10px;
+    border-radius: 6px;
+    box-shadow: 3px 4px 10px;
+}
+.card-design h2{
+    font-size: 20px;
+    padding-top: 0px;
+    margin-top: 140px;
+border: 2px ;
+    border: 2px groove   ;
+    padding: 1px;
+color: indigo;
+cursor: pointer;
+background-color: lightcoral;
+}
+
+@media (max-width: 768px) {
+        .card-design {
+            display: inline-block;
+            background-color: rgb(31, 238, 159);
+            margin-top: 100px;
+            width: 300px !important;
+            border: 1px solid rgb(180, 199, 180);
+        }
+    }
